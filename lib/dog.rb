@@ -3,7 +3,9 @@ class Dog
     @name = name
     @breed = breed
   end
-
+def greeting(name = "Ruby programmer")
+  puts "Hello, #{name}"
+end
    end
  
 
